@@ -136,12 +136,24 @@ git clone  ( Aqui va el enlace que copiaste )
 ```
 ![image](https://github.com/ManuelGTM/Sistema-de-inscripcion/assets/131934866/49b3b2d9-9db6-49b8-a207-66327f3d21b0)
 
+```
+ls  <--- Comando para ver los archivos dentro de la carpeta
+```
+
 - Te saldra algo como esto y de esta manera ya tienes el repositorio clonado dentro de tu computadora y
 listo para ser modificado
 
 ![image](https://github.com/ManuelGTM/Sistema-de-inscripcion/assets/131934866/96b0d632-ea18-4d53-93f7-6b41d28abf71)
 
 ## Hacer modificaciones y subirlas al repositorio
+
+Ojo: Debes entrar a la carpeta del repositorio con cd
+
+```
+cd ( nombre de la carpeta )
+```
+![image](https://github.com/ManuelGTM/Sistema-de-inscripcion/assets/131934866/133294d5-8abc-4aca-983d-cf2b1fb5349d)
+
 
 1. Ejecutar este comando cada vez que hagas un cambio en los archivos
    ```
