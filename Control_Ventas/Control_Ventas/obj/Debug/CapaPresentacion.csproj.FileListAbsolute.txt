@@ -1,0 +1,15 @@
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Database1.mdf
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Database1_log.ldf
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Control_Ventas.exe.config
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Control_Ventas.exe
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Control_Ventas.pdb
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\CapaNegocio.dll
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\CapaNegocio.pdb
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.Properties.Resources.resources
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.exe
+C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.pdb
