@@ -56,8 +56,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CDCargo.cs" />
+    <Compile Include="CDEmpleado.cs" />
+    <Compile Include="CDMarca.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SistemaConexion.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Database1.mdf">
