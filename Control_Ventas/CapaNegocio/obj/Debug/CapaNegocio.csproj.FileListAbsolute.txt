@@ -9,3 +9,14 @@ C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNeg
 C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\RYZEN\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\Database1.mdf
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\Database1_log.ldf
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.pdb
