@@ -57,7 +57,6 @@ namespace CapaDatos
                 sqlCon.Open();
                 micomando.CommandType = CommandType.StoredProcedure;
 
-                micomando.Parameters.AddWithValue("@pIdCargo", objCargo._IdCargo);
                 micomando.Parameters.AddWithValue("@pCargo", objCargo._NombreCargo);
                 micomando.Parameters.AddWithValue("@pEstado", objCargo._Estado);
 
