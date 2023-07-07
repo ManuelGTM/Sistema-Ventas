@@ -85,7 +85,7 @@ namespace CapaDatos
         }
 
 
-        public string ActualizarCargo(CDMarca objMarca)
+        public string ActualizarMarca(CDMarca objMarca)
         {
 
             string mensaje = "";
@@ -99,9 +99,9 @@ namespace CapaDatos
                 sqlCon.Open();
                 micomando.CommandType = CommandType.StoredProcedure;
 
-                micomando.Parameters.AddWithValue("@pIdCargo", objMarca._idMarca);
-                micomando.Parameters.AddWithValue("@pNombreCargo", objMarca._nombreMarca);
-                micomando.Parameters.AddWithValue("@pEstado", objMarca._descripcion);
+                micomando.Parameters.AddWithValue("@pIdMarca", objMarca._idMarca);
+                micomando.Parameters.AddWithValue("@pnombreMarca", objMarca._nombreMarca);
+                micomando.Parameters.AddWithValue("@pDescripcion", objMarca._descripcion);
 
                 mensaje = micomando.ExecuteNonQuery() == 1 ? "Datos actualizados correctamente"
                                                              : "No se pudo actualizar correctamente los nuevos datos";
