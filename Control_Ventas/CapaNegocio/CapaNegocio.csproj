@@ -40,12 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cabecera_Factura.cs" />
+    <Compile Include="Cliente.cs" />
     <Compile Include="CNCargo.cs" />
     <Compile Include="CNEmpleado.cs" />
     <Compile Include="CNMarca.cs" />
     <Compile Include="CNPagos.cs" />
     <Compile Include="CNPedido.cs" />
     <Compile Include="CNProducto.cs" />
+    <Compile Include="Detalle_Factura.cs" />
+    <Compile Include="Detalle_Pedido.cs" />
+    <Compile Include="MetodoDePago.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

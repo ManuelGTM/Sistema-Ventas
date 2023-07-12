@@ -19,7 +19,7 @@ namespace CapaDatos
         private string credito;
         private string tarjeta;
         private string plazo;
-
+        public int _Id_MetodoPago;
 
         public CDMetodoPago()
         {
@@ -148,11 +148,9 @@ namespace CapaDatos
 
         }
 
-
-
-
-
-
-
+        public string InsertarMetodoPago(CDMetodoPago objMetodoPago)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

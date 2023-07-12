@@ -23,6 +23,8 @@ namespace CapaDatos
         private int Condicion;
         private string Observacion;
         private string Estado;
+        public string _Fecha_Factura;
+        public int _Numero_Factura;
 
         public CDCabecera_Factura()
         {

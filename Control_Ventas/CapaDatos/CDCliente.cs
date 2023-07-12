@@ -23,6 +23,7 @@ namespace CapaDatos
         private string Cuidad;
         private string Departamento;
         private string Pais;
+        public string _Direccion;
 
         public CDCliente()
         {
