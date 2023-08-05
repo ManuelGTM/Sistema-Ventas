@@ -13,11 +13,11 @@ namespace CapaNegocio
 {
     public class CNCabecera_Factura
     {
-        public static string InsertarCabecera_Factura(int Numero_Factura, string Fecha_Factura, string Tipo_Factura, int Id_Cliente, int Id_Empleado, int Condicion, string Observacion, string Estado)
+        public static string InsertarCabecera_Factura(DateTime Fecha_Factura, string Tipo_Factura, int Id_Cliente, int Id_Empleado, int Condicion, string Observacion, string Estado)
         {
             CDCabecera_Factura objCabecera_Factura = new CDCabecera_Factura();
 
-            objCabecera_Factura._Fecha_Factura = Fecha_Factura;
+            objCabecera_Factura._Fecha_factura = Fecha_Factura;
             objCabecera_Factura._Tipo_Factura = Tipo_Factura;
             objCabecera_Factura._Id_Cliente = Id_Cliente;
             objCabecera_Factura._Id_Empleado = Id_Empleado;
@@ -28,12 +28,12 @@ namespace CapaNegocio
             return objCabecera_Factura.InsertarCabecera_Factura(objCabecera_Factura);
         }
 
-        public static string ActualizarCabecera_Factura(int Numero_Factura, string Fecha_Factura, string Tipo_Factura, int Id_Cliente, int Id_Empleado, int Condicion, string Observacion, string Estado)
+        public static string ActualizarCabecera_Factura(int Numero_Factura, DateTime Fecha_Factura, string Tipo_Factura, int Id_Cliente, int Id_Empleado, int Condicion, string Observacion, string Estado)
         {
             CDCabecera_Factura objCabecera_Factura = new CDCabecera_Factura();
 
-            objCabecera_Factura._Numero_Factura = Numero_Factura;
-            objCabecera_Factura._Fecha_Factura = Fecha_Factura;
+            objCabecera_Factura._Numero_factura = Numero_Factura;
+            objCabecera_Factura._Fecha_factura = Fecha_Factura;
             objCabecera_Factura._Tipo_Factura = Tipo_Factura;
             objCabecera_Factura._Id_Cliente = Id_Cliente;
             objCabecera_Factura._Id_Empleado = Id_Empleado;

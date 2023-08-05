@@ -16,7 +16,7 @@ namespace CapaDatos
         //Atributos de Pedido
 
         private int Id_Pedido;
-        private string Fecha_Pedido;
+        private DateTime Fecha_Pedido;
         private int Id_Cliente;
         private int Id_Empleado;
         private string Observacion;
@@ -27,7 +27,7 @@ namespace CapaDatos
         {
         }
 
-        public CDPedido(int Id_Pedido, string Fecha_Pedido, int Id_Cliente, int Id_Empleado, string Observacion, string Estado)
+        public CDPedido(int Id_Pedido, DateTime Fecha_Pedido, int Id_Cliente, int Id_Empleado, string Observacion, string Estado)
         {
 
             this.Id_Pedido = Id_Pedido;
@@ -41,7 +41,7 @@ namespace CapaDatos
 
         // getters y setters
         public int _Id_Pedido { get => Id_Pedido; set => Id_Pedido = value; }
-        public string _Fecha_Pedido { get => Fecha_Pedido; set => Fecha_Pedido = value; }
+        public DateTime _Fecha_Pedido { get => Fecha_Pedido; set => Fecha_Pedido = value; }
         public int _Id_Cliente { get => Id_Cliente; set => Id_Cliente = value; }
         public int _Id_Empleado { get => Id_Empleado; set => Id_Empleado = value; }
         public string _Observacion { get => Observacion; set => Observacion = value; }

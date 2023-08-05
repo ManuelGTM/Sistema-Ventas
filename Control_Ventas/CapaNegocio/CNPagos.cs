@@ -14,7 +14,7 @@ namespace CapaNegocio
     public class CNPagos
     {
 
-        public static string InsertarPagos(int id_Cliente, int numeroFactura, string fechaPago, double total, int metodoPago)
+        public static string InsertarPagos(int id_Cliente, int numeroFactura, DateTime fechaPago, double total, int metodoPago)
         {
 
             CDPagos objPagos = new CDPagos();  
@@ -29,7 +29,7 @@ namespace CapaNegocio
 
         }
 
-        public static string ActualizarPagos(int id_Cliente, int numeroFactura, string fechaPago, double total, int metodoPago)
+        public static string ActualizarPagos(int id_Cliente, int numeroFactura, DateTime fechaPago, double total, int metodoPago)
         {
 
             CDPagos objPagos = new CDPagos();  

@@ -14,7 +14,7 @@ namespace CapaNegocio
     internal class CNPedido
     {
 
-        public static string InsertarPedido(int Id_Pedido, string Fecha_Pedido, int Id_Cliente, int Id_Empleado, string Observacion, string Estado)
+        public static string InsertarPedido(int Id_Pedido, DateTime Fecha_Pedido, int Id_Cliente, int Id_Empleado, string Observacion, string Estado)
         {
             CDPedido objPedido = new CDPedido();
             
@@ -27,7 +27,7 @@ namespace CapaNegocio
             return objPedido.InsertarPedido(objPedido);
         }
 
-        public static string ActualizarPedido(int Id_Pedido, string Fecha_Pedido, int Id_Cliente, int Id_Empleado, string Observacion, string Estado)
+        public static string ActualizarPedido(int Id_Pedido, DateTime Fecha_Pedido, int Id_Cliente, int Id_Empleado, string Observacion, string Estado)
         {
             CDPedido objPedido = new CDPedido();
             

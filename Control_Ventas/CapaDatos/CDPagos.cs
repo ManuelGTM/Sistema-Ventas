@@ -16,7 +16,7 @@ namespace CapaDatos
        
         private int IdCliente;
         private int numeroFactura;
-        private string fechaPago;
+        private DateTime fechaPago;
         private double total;
         private int metodoPago;
 
@@ -24,7 +24,7 @@ namespace CapaDatos
         {
         }
 
-        public CDPagos(int id_Cliente, int numeroFactura, string fechaPago, double total, int metodoPago)
+        public CDPagos(int id_Cliente, int numeroFactura, DateTime fechaPago, double total, int metodoPago)
         {
 
             IdCliente = id_Cliente;
@@ -38,7 +38,7 @@ namespace CapaDatos
         
         public int _IdCliente { get => IdCliente; set => IdCliente = value; } 
         public int _numeroFactura { get => numeroFactura; set => numeroFactura = value; } 
-        public string _fechapago { get => fechaPago; set => fechaPago = value; } 
+        public DateTime _fechapago { get => fechaPago; set => fechaPago = value; } 
         public double _total { get => total; set => total = value; } 
         public int _metodoPago { get => metodoPago; set => metodoPago = value; } 
 

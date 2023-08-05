@@ -16,21 +16,19 @@ namespace CapaDatos
         //Atributos de Cabecera_Factura
 
         private int Numero_factura;
-        private string Fecha_factura;
+        private DateTime Fecha_factura;
         private string Tipo_Factura;
         private int Id_Cliente;
         private int Id_Empleado;
         private int Condicion;
         private string Observacion;
         private string Estado;
-        public string _Fecha_Factura;
-        public int _Numero_Factura;
 
         public CDCabecera_Factura()
         {
         }
 
-        public CDCabecera_Factura(int Numero_factura, string Fecha_factura, string Tipo_Factura, int Id_Cliente, int Id_Empleado, int Condicion, string Observacion, string Estado)
+        public CDCabecera_Factura(int Numero_factura, DateTime Fecha_factura, string Tipo_Factura, int Id_Cliente, int Id_Empleado, int Condicion, string Observacion, string Estado)
         {
 
             this.Numero_factura = Numero_factura;
@@ -45,7 +43,7 @@ namespace CapaDatos
 
         // getters y setters
         public int _Numero_factura { get => Numero_factura; set => Numero_factura = value; }
-        public string _Fecha_factura { get => Fecha_factura; set => Fecha_factura = value; }
+        public DateTime _Fecha_factura { get => Fecha_factura; set => Fecha_factura = value; }
         public string _Tipo_Factura { get => Tipo_Factura; set => Tipo_Factura = value; }
         public int _Id_Cliente { get => Id_Cliente; set => Id_Cliente = value; }
         public int _Id_Empleado { get => Id_Empleado; set => Id_Empleado = value; }

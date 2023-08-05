@@ -13,7 +13,7 @@ namespace CapaNegocio
 {
     public class CNProducto
     {
-        public static string InsertarProducto(int IdProducto, string nombreProducto, int existencia, double precio, int Marca, string Estado)
+        public static string InsertarProducto(string nombreProducto, int existencia, double precio, int Marca, string Estado)
         {
 
             CDProducto objProducto = new CDProducto();
