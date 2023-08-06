@@ -67,6 +67,7 @@
     <Compile Include="CDDetalle_Factura.cs" />
     <Compile Include="CDDetalle_Pedido.cs" />
     <Compile Include="CDPedido.cs" />
+    <Compile Include="Dashboard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SistemaConexion.cs" />
   </ItemGroup>
