@@ -154,7 +154,7 @@ namespace CapaDatos
                 dt.Load(leerDatos); // Se cargan los registros devueltos al DataTable
                 sqlCmd.Connection.Close(); // Se cierra la conexion
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 dt = null; //si ocurre un erro se anula el DataTable
             }

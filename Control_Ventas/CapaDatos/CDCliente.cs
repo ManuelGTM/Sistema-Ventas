@@ -148,7 +148,7 @@ namespace CapaDatos
                 SqlCommand sqlCmd = new SqlCommand(); //Establece un comando
                 sqlCmd.Connection = new Sistema_Conexion().dbconexion;//Conexion que usara el comando
                 sqlCmd.Connection.Open();// Abrir la base de datos
-                sqlCmd.CommandText = "Clienteonsultar"; //Nombr3 de proc. Almacenado
+                sqlCmd.CommandText = "ClienteConsultar"; //Nombr3 de proc. Almacenado
                 sqlCmd.CommandType = CommandType.StoredProcedure; // Se trata de un Proc. Almacenado
                 sqlCmd.Parameters.AddWithValue("@pvalor", miparametro); // Se pasa el valor a buscar 
                 leerDatos = sqlCmd.ExecuteReader(); // Lenamos el data reader con los datos resultantes
