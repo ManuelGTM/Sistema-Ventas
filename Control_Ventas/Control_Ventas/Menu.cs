@@ -106,30 +106,36 @@ namespace Control_Ventas
         {
             ActivateButton(sender, RGBColors.color1);
             OpenChildForm(new Dash());
+            lblTitleChildForm.Text = "Dashboard";
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
 
             ActivateButton(sender, RGBColors.color2);
+            OpenChildForm(new COProducto());
+            lblTitleChildForm.Text = "Pedidos";
         }
 
         private void iconButton3_Click(object sender, EventArgs e)
         {
 
             ActivateButton(sender, RGBColors.color3);
+            lblTitleChildForm.Text = "Clientes";
         }
 
         private void iconButton4_Click(object sender, EventArgs e)
         {
 
             ActivateButton(sender, RGBColors.color4);
+            lblTitleChildForm.Text = "Productos";
         }
 
         private void iconButton5_Click(object sender, EventArgs e)
         {
 
             ActivateButton(sender, RGBColors.color5);
+            lblTitleChildForm.Text = "Reportes";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -163,6 +169,24 @@ namespace Control_Ventas
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void iconPictureBox2_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void iconPictureBox3_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal)
+                WindowState = FormWindowState.Maximized;
+            else
+                WindowState = FormWindowState.Normal;
+        }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

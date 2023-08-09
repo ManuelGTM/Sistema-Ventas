@@ -70,6 +70,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="COProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COProducto.Designer.cs">
+      <DependentUpon>COProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="COProducto.resx">
+      <DependentUpon>COProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dash.resx">
       <DependentUpon>Dash.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +162,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LogoVentasN#.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Online-shopping-logo-template-on-transparent-background-PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Online-shopping-logo-template-on-transparent-background-PNG1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

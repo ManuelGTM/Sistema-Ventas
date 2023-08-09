@@ -119,5 +119,25 @@ namespace Control_Ventas.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Online_shopping_logo_template_on_transparent_background_PNG {
+            get {
+                object obj = ResourceManager.GetObject("Online-shopping-logo-template-on-transparent-background-PNG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Online_shopping_logo_template_on_transparent_background_PNG1 {
+            get {
+                object obj = ResourceManager.GetObject("Online-shopping-logo-template-on-transparent-background-PNG1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

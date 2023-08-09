@@ -86,3 +86,4 @@ C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Deb
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.Dash.resources
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.Menu.resources
+C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.COProducto.resources
