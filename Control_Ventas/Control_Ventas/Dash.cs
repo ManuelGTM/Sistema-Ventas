@@ -17,7 +17,7 @@ namespace Control_Ventas
 {
     public partial class Dash : Form
     {
-        private Dashboard model;
+        private readonly Dashboard model;
         public Dash()
         {
             InitializeComponent();

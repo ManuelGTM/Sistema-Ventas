@@ -16,7 +16,7 @@ namespace Control_Ventas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dash());
+            Application.Run(new Menu());
         }
     }
 }

@@ -107,6 +107,7 @@
             // 
             // btnLastMonth
             // 
+            this.btnLastMonth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLastMonth.Location = new System.Drawing.Point(840, 9);
             this.btnLastMonth.Name = "btnLastMonth";
             this.btnLastMonth.Size = new System.Drawing.Size(75, 23);
@@ -117,6 +118,7 @@
             // 
             // btnLast30days
             // 
+            this.btnLast30days.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLast30days.Location = new System.Drawing.Point(759, 9);
             this.btnLast30days.Name = "btnLast30days";
             this.btnLast30days.Size = new System.Drawing.Size(75, 23);
@@ -127,6 +129,7 @@
             // 
             // btnLast7days
             // 
+            this.btnLast7days.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLast7days.Location = new System.Drawing.Point(678, 9);
             this.btnLast7days.Name = "btnLast7days";
             this.btnLast7days.Size = new System.Drawing.Size(75, 23);
@@ -137,6 +140,7 @@
             // 
             // btnToday
             // 
+            this.btnToday.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnToday.Location = new System.Drawing.Point(597, 9);
             this.btnToday.Name = "btnToday";
             this.btnToday.Size = new System.Drawing.Size(75, 23);
@@ -147,6 +151,7 @@
             // 
             // btnCustomDate
             // 
+            this.btnCustomDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCustomDate.Location = new System.Drawing.Point(516, 9);
             this.btnCustomDate.Name = "btnCustomDate";
             this.btnCustomDate.Size = new System.Drawing.Size(75, 23);
@@ -157,6 +162,7 @@
             // 
             // btnOk
             // 
+            this.btnOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOk.Location = new System.Drawing.Point(477, 9);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(33, 23);
@@ -252,12 +258,15 @@
             // 
             // chartGrossRevenue
             // 
+            this.chartGrossRevenue.BackColor = System.Drawing.Color.Transparent;
             chartArea3.Name = "Gross Revenue";
             this.chartGrossRevenue.ChartAreas.Add(chartArea3);
             legend3.Name = "Legend1";
+            legend3.TitleForeColor = System.Drawing.Color.White;
             this.chartGrossRevenue.Legends.Add(legend3);
             this.chartGrossRevenue.Location = new System.Drawing.Point(12, 101);
             this.chartGrossRevenue.Name = "chartGrossRevenue";
+            this.chartGrossRevenue.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
             series3.ChartArea = "Gross Revenue";
             series3.Legend = "Legend1";
             series3.Name = "Series1";
@@ -267,12 +276,14 @@
             this.chartGrossRevenue.Text = "Gross Revenue";
             title3.Alignment = System.Drawing.ContentAlignment.TopLeft;
             title3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title3.ForeColor = System.Drawing.Color.White;
             title3.Name = "Title1";
             title3.Text = "Gross Revenue";
             this.chartGrossRevenue.Titles.Add(title3);
             // 
             // chartTopProducts
             // 
+            this.chartTopProducts.BackColor = System.Drawing.Color.Transparent;
             chartArea4.Name = "Gross Revenue";
             this.chartTopProducts.ChartAreas.Add(chartArea4);
             legend4.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
@@ -280,6 +291,7 @@
             this.chartTopProducts.Legends.Add(legend4);
             this.chartTopProducts.Location = new System.Drawing.Point(607, 101);
             this.chartTopProducts.Name = "chartTopProducts";
+            this.chartTopProducts.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SemiTransparent;
             series4.ChartArea = "Gross Revenue";
             series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
             series4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -292,7 +304,9 @@
             this.chartTopProducts.TabIndex = 13;
             this.chartTopProducts.Text = "Gross Revenue";
             title4.Alignment = System.Drawing.ContentAlignment.TopLeft;
+            title4.BackColor = System.Drawing.Color.Transparent;
             title4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title4.ForeColor = System.Drawing.Color.White;
             title4.Name = "Title1";
             title4.Text = "Top 5 products";
             this.chartTopProducts.Titles.Add(title4);
@@ -389,6 +403,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.ClientSize = new System.Drawing.Size(921, 474);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -406,6 +421,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dtpEndDate);
             this.Controls.Add(this.dtpStartDate);
+            this.ForeColor = System.Drawing.SystemColors.Control;
             this.Name = "Dash";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
