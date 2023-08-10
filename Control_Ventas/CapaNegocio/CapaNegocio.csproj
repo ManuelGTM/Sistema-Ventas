@@ -56,6 +56,7 @@
     <Compile Include="CNPagos.cs" />
     <Compile Include="CNPedido.cs" />
     <Compile Include="CNProducto.cs" />
+    <Compile Include="Dashboard.cs" />
     <Compile Include="Detalle_Factura.cs" />
     <Compile Include="Detalle_Pedido.cs" />
     <Compile Include="MetodoDePago.cs" />

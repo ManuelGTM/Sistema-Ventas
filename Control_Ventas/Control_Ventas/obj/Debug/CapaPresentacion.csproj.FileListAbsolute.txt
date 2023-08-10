@@ -28,8 +28,6 @@ C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Capa
 C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.exe
 C:\Users\rapto\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.pdb
-C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Database1.mdf
-C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Database1_log.ldf
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Control_Ventas.exe.config
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Control_Ventas.exe
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Control_Ventas.pdb
@@ -45,7 +43,6 @@ C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Deb
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.exe
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.pdb
-C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.Dashboard.resources
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Control_Ventas.exe.config
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Control_Ventas.exe
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Control_Ventas.pdb
@@ -87,3 +84,12 @@ C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Deb
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.Menu.resources
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.COProducto.resources
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.COProducto.resources
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.Dash.resources
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.Menu.resources
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.FCOCliente.resources
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.FCOPedido.resources
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\obj\Debug\Control_Ventas.FConPlantilla.resources
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Database1.mdf
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\Control_Ventas\bin\Debug\Database1_log.ldf

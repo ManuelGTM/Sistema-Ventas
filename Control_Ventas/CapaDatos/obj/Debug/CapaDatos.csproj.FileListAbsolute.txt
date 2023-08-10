@@ -22,8 +22,6 @@ C:\Users\RYZEN\repos\Sistema-Ventas\Sistema-Ventas\Control_Ventas\CapaDatos\obj\
 C:\Users\RYZEN\repos\Sistema-Ventas\Sistema-Ventas\Control_Ventas\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
 C:\Users\RYZEN\repos\Sistema-Ventas\Sistema-Ventas\Control_Ventas\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\RYZEN\repos\Sistema-Ventas\Sistema-Ventas\Control_Ventas\CapaDatos\obj\Debug\CapaDatos.pdb
-C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaDatos\bin\Debug\Database1.mdf
-C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaDatos\bin\Debug\Database1_log.ldf
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaDatos\bin\Debug\CapaDatos.dll
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaDatos\bin\Debug\CapaDatos.pdb
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
@@ -50,3 +48,7 @@ C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\CapaDatos\bin\Debug\Db
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\CapaDatos\bin\Debug\Db1_log.ldf
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\CapaDatos\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaDatos\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaDatos\bin\Debug\Database1.mdf
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaDatos\bin\Debug\Database1_log.ldf

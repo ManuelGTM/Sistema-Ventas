@@ -11,10 +11,10 @@ using CapaDatos;
 
 namespace CapaNegocio
 {
-    internal class CNPedido
+    public class CNPedido
     {
 
-        public static string InsertarPedido(int Id_Pedido, DateTime Fecha_Pedido, int Id_Cliente, int Id_Empleado, string Observacion, string Estado)
+        public static string InsertarPedido(DateTime Fecha_Pedido, int Id_Cliente, int Id_Empleado, string Observacion, string Estado)
         {
             CDPedido objPedido = new CDPedido();
             

@@ -80,11 +80,11 @@
     <Compile Include="SistemaConexion.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Db1.mdf">
+    <Content Include="Database1.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Db1_log.ldf">
-      <DependentUpon>Db1.mdf</DependentUpon>
+    <Content Include="Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

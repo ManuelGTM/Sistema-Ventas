@@ -64,11 +64,11 @@ namespace CapaDatos
                 sqlCon.Open();
                 micomando.CommandType = CommandType.StoredProcedure;
 
-                micomando.Parameters.AddWithValue("@pFecha_Pedido", objPedido._Fecha_Pedido);
-                micomando.Parameters.AddWithValue("@pId_Cliente", objPedido._Id_Cliente);
-                micomando.Parameters.AddWithValue("@pId_Empleado", objPedido._Id_Empleado);
-                micomando.Parameters.AddWithValue("@pObservacion", objPedido._Observacion);
-                micomando.Parameters.AddWithValue("@pEstado", objPedido._Estado);
+                micomando.Parameters.AddWithValue("@pfecha_Pedido", objPedido._Fecha_Pedido);
+                micomando.Parameters.AddWithValue("@pid_Cliente", objPedido._Id_Cliente);
+                micomando.Parameters.AddWithValue("@pid_Empleado", objPedido._Id_Empleado);
+                micomando.Parameters.AddWithValue("@pobservacion", objPedido._Observacion);
+                micomando.Parameters.AddWithValue("@pestado", objPedido._Estado);
 
 
                 mensaje = micomando.ExecuteNonQuery() == 1 ? "Insercion de datos completada correctamente"
@@ -87,7 +87,7 @@ namespace CapaDatos
                 }
             }
 
-            return "";
+            return mensaje;
         }
 
         public string ActualizarPedido(CDPedido objPedido)
@@ -103,12 +103,12 @@ namespace CapaDatos
                 SqlCommand micomando = new SqlCommand("PedidoActualizar", sqlCon);
                 sqlCon.Open();
 
-                micomando.Parameters.AddWithValue("@pId_Pedido", objPedido._Id_Pedido);
-                micomando.Parameters.AddWithValue("@pFecha_Pedido", objPedido._Fecha_Pedido);
-                micomando.Parameters.AddWithValue("@pId_Cliente", objPedido._Id_Cliente);
-                micomando.Parameters.AddWithValue("@pId_Empleado", objPedido._Id_Empleado);
-                micomando.Parameters.AddWithValue("@pObservacion", objPedido._Observacion);
-                micomando.Parameters.AddWithValue("@pEstado", objPedido._Estado);
+                micomando.Parameters.AddWithValue("@pid_pedido", objPedido._Id_Pedido);
+                micomando.Parameters.AddWithValue("@pfecha_Pedido", objPedido._Fecha_Pedido);
+                micomando.Parameters.AddWithValue("@pid_Cliente", objPedido._Id_Cliente);
+                micomando.Parameters.AddWithValue("@pid_Empleado", objPedido._Id_Empleado);
+                micomando.Parameters.AddWithValue("@pobservacion", objPedido._Observacion);
+                micomando.Parameters.AddWithValue("@pestado", objPedido._Estado);
 
 
                 mensaje = micomando.ExecuteNonQuery() == 1 ? "Datos actualizados correctamente"
@@ -128,7 +128,7 @@ namespace CapaDatos
             }
 
 
-            return $"{mensaje}";
+            return mensaje;
         }
 
 

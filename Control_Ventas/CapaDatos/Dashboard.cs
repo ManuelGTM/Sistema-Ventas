@@ -16,7 +16,6 @@ namespace CapaDatos
         public string Date { get; set; }
         public decimal TotalAmount { get; set; }
     }
-
     public class Dashboard : Sistema_Conexion
     {
 
@@ -139,6 +138,7 @@ namespace CapaDatos
     
         private void GetOrderAnalisys()
         {
+
             GrossRevenueList = new List<RevenueByDate>();
             TotalProfit = 0;
             TotalRevenue = 0;
@@ -169,7 +169,6 @@ namespace CapaDatos
                 }
                 TotalProfit += TotalRevenue * 0.2m;
                 reader.Close();
-
                 //Agrupar por horas
                 if(numberDays <= 1)
                 {
@@ -180,8 +179,7 @@ namespace CapaDatos
                                         {
                                             Date = Pedido.Key,
                                             TotalAmount = Pedido.Sum(precio_venta => precio_venta.Value)
-                                        }).ToList();
-                }
+                                        }).ToList();                }
 
                 else if(numberDays <= 30)
                 {

@@ -35,8 +35,6 @@ C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\obj\Debug\CapaNegocio.pdb
-C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\Database1.mdf
-C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\Database1_log.ldf
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\CapaNegocio.dll
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\CapaNegocio.pdb
 C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\CapaDatos.dll
@@ -67,3 +65,6 @@ C:\Users\MT\workbench\repos\ventas\Sistema-Ventas\Control_Ventas\CapaNegocio\bin
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\Db1.mdf
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\Db1_log.ldf
 C:\Users\rapto\repos\ventas\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\Database1.mdf
+C:\Users\MT\workbench\repos\Sistema-Ventas\Control_Ventas\CapaNegocio\bin\Debug\Database1_log.ldf

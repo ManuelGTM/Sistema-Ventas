@@ -8,6 +8,12 @@ namespace Control_Ventas
 {
     internal static class Program
     {
+        public static int vidCliente = 0;
+        public static int vidPedido = 0;
+        public static int vidProducto = 0;
+        public static bool nuevo = false;
+        public static bool modificar = false;
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

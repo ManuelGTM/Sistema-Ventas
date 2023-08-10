@@ -7,11 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CapaDatos;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Data.Sql;
-
+using CapaNegocio;
 
 namespace Control_Ventas
 {

@@ -113,7 +113,7 @@ namespace Control_Ventas
         {
 
             ActivateButton(sender, RGBColors.color2);
-            OpenChildForm(new COProducto());
+            OpenChildForm(new FCOPedido());
             lblTitleChildForm.Text = "Pedidos";
         }
 
@@ -121,6 +121,7 @@ namespace Control_Ventas
         {
 
             ActivateButton(sender, RGBColors.color3);
+            OpenChildForm(new FCOCliente());
             lblTitleChildForm.Text = "Clientes";
         }
 
@@ -128,6 +129,7 @@ namespace Control_Ventas
         {
 
             ActivateButton(sender, RGBColors.color4);
+            OpenChildForm(new COProducto());
             lblTitleChildForm.Text = "Productos";
         }
 

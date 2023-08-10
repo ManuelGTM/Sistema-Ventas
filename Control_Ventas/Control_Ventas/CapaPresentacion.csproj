@@ -82,6 +82,24 @@
     <Compile Include="Dash.Designer.cs">
       <DependentUpon>Dash.cs</DependentUpon>
     </Compile>
+    <Compile Include="FCOCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCOCliente.Designer.cs">
+      <DependentUpon>FCOCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FConPlantilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FConPlantilla.Designer.cs">
+      <DependentUpon>FConPlantilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCOPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCOPedido.Designer.cs">
+      <DependentUpon>FCOPedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +113,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dash.resx">
       <DependentUpon>Dash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCOCliente.resx">
+      <DependentUpon>FCOCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FConPlantilla.resx">
+      <DependentUpon>FConPlantilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCOPedido.resx">
+      <DependentUpon>FCOPedido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
